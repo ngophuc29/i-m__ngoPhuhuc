@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+}
+
+/* Staring Coding */
+
+.content{
+    display: flex;
+}
+.content__left{
+    width: 12%;
+    background-color: #222;
+    padding: 0px 0 100px 0;
+    position: fixed;
+    left: 0;
+}
+.content__left__img{
+    width: 100%;
+    filter: grayscale(1);
+}
+.content__left__menu__left__list{
+
+}
+.content__left__menu__left__item{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.content__left__menu__left__item:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.content__left__link{
+    text-decoration: none;
+    color: #fff;
+}
+.content__left__menu_icon{
+    font-size: 3.4rem;
+    margin: 10px;
+}
+.conent__left__menu__item__name{
+    font-size: 1.8rem;
+}
+
+
+/* Content Right */
+.content__rigth{
+    width: 88%;
+    list-style: none;
+    position: relative;
+    background-color: #000;
+    margin-left: 162px;
+}
+
+.content__right__heading{
+    position: absolute;
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 62px 0 0 0;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    font-size: 3.4rem;
+}
+.content__right__heading span{
+    display: block;
+    margin: 55px 0 0 0;
+}
+
+.content_right__img{
+    width: 100%;
+    background-size: contain;
+    margin: 167px 0 0 0;
+    filter: grayscale(1);
+}
+
+
+/* Content swap */
+
+.content__right__swap{
+    padding: 60px;
+}
+/* My Name */
+
+
+
+.myname{
+    color: #fff;
+}
+.myname__heading{
+    font-size: 3.4rem;
+    font-weight: 100;
+    padding: 0 0 20px 0;
+}
+.myname__dsc{
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.4;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #ccc;
+}
+
+/* My Skils */
+
+.skill{
+    color: #fff;
+    margin: 27px 0 0 0;     
+}
+.skill__heading{
+    margin: 0 0 30px 0;
+    font-size: 3.4rem;
+    font-weight: 100;
+}
+.skill__list{
+
+}
+.skill__item{
+    list-style: none;
+    margin: 16px 0;
+}
+.skill__item__heading{
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin: 0 0 11px 0;
+}
+.skill__full{
+    width: 100%;
+    padding: 16px;
+    background-color: #fff;
+    position: relative;
+}
+.skill__percent90{
+    background-color: #616161;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: 94%;
+    left: 0;
+}
+
+.skill__percent80{
+    background-color: #616161;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.skill__percent75{
+    background-color: #616161;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: 83%;
+    left: 0;
+}
+
+.skill__age__list{
+    display: flex;
+    margin: 44px 0;
+}
+.skill__age__item{
+    list-style-type: none;
+    list-style-type: none;
+    width: 24.99%;
+    text-align: center;
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 47px;
+}
+.skill__age{
+    font-size: 2.4rem;
+}
+.skill__age__dsc{
+    font-size: 1.4rem;
+    margin: 13px 0 0 0;
+}
+
+.skill__btn{
+    border: none;
+    padding: 18px 11px;
+    font-size: 1.5rem;
+}
+.skill__btn-icon{
+
+}
+.skill__btn:hover{
+    background-color: #fff;
+    color:blue;
+    cursor: pointer;
+}
+
+/* Price */
+
+.price{
+
+    color: #fff;
+    margin: 40px 0 0 0;
+}
+.price__heading{
+    font-size: 3.4rem;
+    font-weight: 100;
+    margin: 1px 0 41px 0;
+}
+.price__list{
+    display: flex;
+}
+.price__item{
+    list-style: none;
+    width: 49.999%;
+    text-align: center;
+    padding: 12px;
+    filter: opacity(0.5);
+}
+.price__item:hover{
+    filter: opacity(1);
+    cursor: pointer;
+}
+.price__item_heading{
+    background-color: #616161;
+    color: #fff;
+    padding: 29px 14px;
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+.price__item-list{
+    background-color: #fff;
+    color: #000;
+}
+.price__item-list_item{
+    list-style: none;
+    padding: 18px;
+    font-size: 1.6rem;
+    border-top: 1px solid #e9e0e0;
+}
+.price__item-list_item1{
+
+}
+.price__item-list_item2{
+
+}
+.price__btn{
+    background-color: #f1f1f1;
+    padding: 43px;
+}
+.price__btn span {
+    padding: 16px 29px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4rem;
+}
+.price__btn span:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.price__item-list_item1{
+
+    font-size: 3.4rem;
+    margin: 14px 0;
+}
+.price__item-list_item1{
+
+    
+    padding: 9px;
+}
+
+
+.reputation{
+    margin: 29px 0;
+}
+.reputation__heading{
+    color: #fff;
+    font-size: 3.4rem;
+    font-weight: 100;
+    margin: 39px 0;
+}
+
+.reputation__list{
+
+}
+.reputation__item{
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+}
+.reputation__item__img{
+    width: 110px;
+    border-radius: 74px;
+}
+.reputation__item-dsc{
+    margin: 0 0 0 17px;
+}
+.reputation__item-dsc1{
+    color: #757575;
+    font-size: 1.6rem;
+    padding: 0 0 8px 0;
+}
+.reputation__item-dsc2{
+    color: #757575;
+    font-size: 1.6rem;
+}
+
+/* Photos */
+
+.photo{
+    
+}
+.photo_heading{
+    color: #fff;
+    font-size: 3.4rem;
+    margin: 42px 0;
+    font-weight: 100;
+}
+.img__pho{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img__pho__item{
+    width: 49.999%;
+}
+.photo__img{
+    width: 100%;
+    padding: 5px;
+}
+
+
+/* Contact */
+
+.contact{
+    color: #fff;
+    margin: 38px 0;
+}
+.contact__heading{
+    font-size: 3.4rem;
+    font-weight: 100;
+    padding: 20px 0;
+}
+
+.contact__list{
+    padding: 12px 0 0 0;
+    border-top: 1px solid #ccc;
+}
+.contact__item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    color: #757575;
+    margin: 0 0 16px 0;
+}
+.contact-icon{
+    font-size: 2.4rem;
+    margin: 0 21px 0 0;
+    color: #fff;
+}
+
+.contact__input__heading{
+    font-size: 2.4rem;
+    font-weight: 100;
+    margin: 31px 0 14px 0px;
+}
+.contact_input{
+    width: 100%;
+    padding: 8px 3px;
+    margin: 4px 0;
+    color: #000;
+}
+.contact_input__btn{
+    border: none;
+    padding: 12px 12px;
+    font-size: 1.9rem;
+    margin: 5px 0 0 0;
+}
+.contact_input__btn:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer{
+
+}
+.social__list{
+    display: flex;
+}
+.social-item{
+    padding: 0 8px;
+}
+.social-item_link{
+    color: #fff;
+    font-size: 2.4rem;
+}
+.social-item_link:hover{
+    color: #ccc;
+}
+.footer__mes{
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 13px 0;
+}
+.footer__mes__link{
+    color: #fff;
+}
